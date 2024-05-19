@@ -1,0 +1,23 @@
+C:\Windows\System32>docker run -d --name secret-message devopsdockeruh/simple-web-service:ubuntu
+4ef39311727b7abd4238858e58a5c995b913747de024a0faee2cd84b0170e52f
+
+C:\Windows\System32>docker exec -it secret-message bash
+root@4ef39311727b:/usr/src/app# tail -f ./text.log
+2024-05-09 22:20:18 +0000 UTC
+2024-05-09 22:20:20 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2024-05-09 22:20:22 +0000 UTC
+2024-05-09 22:20:24 +0000 UTC
+2024-05-09 22:20:26 +0000 UTC
+2024-05-09 22:20:28 +0000 UTC
+2024-05-09 22:20:30 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2024-05-09 22:20:32 +0000 UTC
+2024-05-09 22:20:34 +0000 UTC
+2024-05-09 22:20:36 +0000 UTC
+2024-05-09 22:20:38 +0000 UTC
+2024-05-09 22:20:40 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2024-05-09 22:20:42 +0000 UTC
+^C
+root@4ef39311727b:/usr/src/app#

@@ -1,0 +1,1 @@
+I opened render.com, signed up, clicked "new web-service" -> "deploy existing image from a registry" -> pasted link to image from docker hub -> clicked "manual deploy" -> "deploy latest reference"

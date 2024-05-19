@@ -1,0 +1,5 @@
+C:\Windows\System32>docker ps -a
+CONTAINER ID   IMAGE         COMMAND                  CREATED              STATUS                          PORTS     NAMES
+bd150b6baa8c   debian        "bash"                   53 seconds ago       Exited (0) 50 seconds ago                 container3
+764ac60d8443   hello-world   "/hello"                 About a minute ago   Exited (0) About a minute ago             container2
+10bc6dc09629   nginx         "/docker-entrypoint.…"   About a minute ago   Up About a minute               80/tcp    container1
